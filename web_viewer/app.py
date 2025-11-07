@@ -242,4 +242,3 @@ if __name__ == "__main__":
     if IS_RAILWAY:
         print(f"   Public domain: {RAILWAY_DOMAIN}")
     app.run(host="0.0.0.0", port=int(os.getenv("PORT", 5000)), debug=True)
-
